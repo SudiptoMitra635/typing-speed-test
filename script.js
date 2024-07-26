@@ -77,7 +77,7 @@ const words = [
 
 // loading random words to the screen
 let chosenWords = ""
-for (let i = 1; i <= 60; i++) {
+for (let i = 1; i <= 65; i++) {
   const temp = words[Math.floor(Math.random() * 581)]
   chosenWords += temp + " "
 }
